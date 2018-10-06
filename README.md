@@ -87,3 +87,10 @@ export https_proxy=https://<user>:<password>@<proxy_server>:<proxy_port>
 # As root user
 sudo -E pip install -r requirements.txt
 ```
+
+
+# Docker
+```
+To run it using a docker container
+docker run -it -p 54321:54321 -p 8888:8888 -p 8787:8787 h2o-tutorial
+```
